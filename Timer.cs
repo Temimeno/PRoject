@@ -1,31 +1,22 @@
 public class Timer {
     static void Main(string[] args) {
 
-        int a = 10;
+        int mins = 1;
+        int second = 10;
+        int hour = 0;
 
-        for (int i = a; i >= 0; i--) {
+        var d = new DateTime(2000, 1, 1, hour, mins, second);
 
-            Console.Clear();
-            Console.Write("Timeleft : {0} ", i);  // Override complete previous contents
-            System.Threading.Thread.Sleep(1000);
-
-        }
-
-        Console.WriteLine();
-        Console.WriteLine("Finish");
-
-        /*
-        var mins = 1;
-
-        var d = new DateTime(2000, 1, 1, 0, mins, 0);
-
-            for (int i = 0; i <= mins * 60; i++ )
+            for (int i = 0; i <= ((hour * 3600) + (mins * 60) + second); i++ )
             {                
-                Console.Write(d.ToString("hh:mm:ss"));
+                Console.Write(d.ToString("HH:mm:ss"));
                 d = d.AddSeconds(-1);
                 System.Threading.Thread.Sleep(100);
                 Console.Clear();
             }
-        */
+
+        Console.WriteLine("Finish");
+        Console.WriteLine("(Press Any Button to Continue)");
+        Console.ReadLine();
     }
 }
