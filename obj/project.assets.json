@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GLPC\\.nuget\\packages\\": {}
+    "C:\\Users\\Pie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GLPC\\Desktop\\PRoject\\PRoject.csproj",
+      "projectUniqueName": "C:\\Users\\Pie\\OneDrive\\Desktop\\Code\\C#\\CommitProject\\PRoject\\PRoject.csproj",
       "projectName": "PRoject",
-      "projectPath": "C:\\Users\\GLPC\\Desktop\\PRoject\\PRoject.csproj",
-      "packagesPath": "C:\\Users\\GLPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GLPC\\Desktop\\PRoject\\obj\\",
+      "projectPath": "C:\\Users\\Pie\\OneDrive\\Desktop\\Code\\C#\\CommitProject\\PRoject\\PRoject.csproj",
+      "packagesPath": "C:\\Users\\Pie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pie\\OneDrive\\Desktop\\Code\\C#\\CommitProject\\PRoject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GLPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
